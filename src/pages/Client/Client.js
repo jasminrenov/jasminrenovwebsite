@@ -18,8 +18,8 @@ function Client() {
           <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?cs=srgb&dl=pexels-fotoaibe-1571460.jpg&fm=jpg" alt="background images" />
         <div className='review-content-portion'>
           <hr />
-          <h1><strong>Avis clients</strong></h1>
-          <p>Ne prenez pas seulement notre parole pour acquis, lisez ce que nos clients ont à dire.</p>
+          <h1><strong className='font-20-res-16'>Avis clients</strong></h1>
+          <p className='font-18-res-16 weight-400'>Ne prenez pas seulement notre parole pour acquis, lisez ce que nos clients ont à dire.</p>
         </div>
       </div>
       {/* 2nd Portion */}

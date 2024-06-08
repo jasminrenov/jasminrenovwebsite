@@ -133,6 +133,9 @@
   .text-res-width{
     width: 35%;
   }
+  .noz_portion{
+    padding: 50px;
+  }
 
   @media only screen and (max-width:786px){
     .responsive_flex{
@@ -182,7 +185,11 @@
   .Comprendra_grid {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 25px;
     
+}
+.noz_portion{
+  padding: 25px;
 }
 .service-portion2 {
   display: grid;

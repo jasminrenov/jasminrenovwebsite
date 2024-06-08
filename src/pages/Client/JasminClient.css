@@ -78,5 +78,13 @@
       grid-template-columns: 1fr;
       
     }
+    .review-content-portion p {
+      width: 250px;
+      
+    }
+    /* .review-content-portion{
+      flex-direction: column;
+      
+    } */
     
   }

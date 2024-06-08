@@ -11,8 +11,8 @@ function HeroComponent({videoSrc, title, describe, btnLink, btnName}) {
         Your browser does not support HTML5 video.
       </video>
       <div className='hero-content-portion'>
-        <h1><strong>{title}</strong></h1>
-        <p>{describe}</p>
+        <h1><strong className='font-38-res-19'>{title}</strong></h1>
+        <p className='font-18-res-16 weight-400'>{describe}</p>
         <Button hyperlink={btnLink} name={btnName} />
       </div>
     </div>

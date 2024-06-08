@@ -26,6 +26,7 @@
     text-align: center;
     padding: 50px;
     height: 60vh;
+    margin-top: 50px;
   }
   .zone-para {
     font-size: 1.1rem;
@@ -80,6 +81,6 @@
     .grid-container {
       display: grid;
       grid-template-columns: 1fr;
-      margin-top: 20px;
+      margin-top: 60px;
     }
   }

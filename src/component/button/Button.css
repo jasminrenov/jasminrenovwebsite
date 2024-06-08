@@ -1,7 +1,7 @@
 .common_button{
     border-radius: 5px;
     border: none;
-    font-size: 20px;
+    /* font-size: 20px; */
     font-weight: 700;
     color: white;
     background: #e81a4b;
@@ -10,7 +10,7 @@
 .common_button2{
     border-radius: 5px;
     border-color: #e81a4b !important;
-    font-size: 20px;
+    /* font-size: 20px; */
     font-weight: 700;
     color: black;
     background: white;
