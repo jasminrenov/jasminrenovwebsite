@@ -1,0 +1,72 @@
+.contact-wrapper {
+    display: flex;
+    margin: 70px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    text-align: start;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    background-color: #f2f5f7;
+    gap: 20px;
+    padding: 30px;
+    border: 2px solid gray;
+    -webkit-box-shadow: 0 0 10px #e2e2e2;
+    box-shadow: 0 0 10px #e2e2e2;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    background-color: #f9fafb;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    text-indent: 5px;
+  }
+  
+  .contect-cards {
+    margin: 70px auto;
+  }
+  
+  .contact-btn {
+    width: fit-content;
+    border: none;
+    background-color: #111111;
+    color: #f2f5f7;
+    padding: 3px 10px;
+    border-radius: 3px;
+  }
+  
+  .wa-icon {
+    background: #30d66e;
+  }
+  
+  .insta-icon {
+    background: #F00075;
+  }
+  
+  .linkedin-icon {
+    background: #0d66c2;
+  }
+  
+  .contact-icon {
+    padding: 3px 5px 0 7px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+  
+  }
+  @media only screen and (max-width:480px) {
+    .contact-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact-form {
+      width: 350px;
+    }
+    .contect-cards{
+      flex-direction: column;
+    }
+  }

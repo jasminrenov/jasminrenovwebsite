@@ -1,0 +1,19 @@
+.custom-strip {
+    background: #1e293b;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 2rem 0;
+}
+
+.strip-content2 {
+    font-size: 2.3rem;
+  }
+ 
+@media only screen and (max-width: 480px) {
+    .strip-content2 {
+      font-size: 1.3rem ;
+    }
+  }

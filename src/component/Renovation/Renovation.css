@@ -1,0 +1,33 @@
+/* .interiorRenovation-portion {
+  min-height: 100vh;
+} */
+
+.interiorRenovation-img {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+  }
+  
+  .interiorRenovation-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+  }
+  
+  .interiorRenovation-content {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+ 
+
+  @media only screen and (max-width:480px){
+    .interiorRenovation-content{
+      font-size: 10px;
+    }
+}

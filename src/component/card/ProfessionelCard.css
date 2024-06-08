@@ -1,0 +1,23 @@
+.customCard {
+    background-color: #fff;
+    border: 1px solid lightgray;
+    width: 320px;
+    text-align: start;
+    padding: 40px;
+    -webkit-box-shadow: 0 0 10px #dadada;
+          box-shadow: 0 0 10px #dadada;
+          margin: auto;
+  }
+  
+  .img-container {
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    background-color: lightgray;
+  }
+  
+  .img-container img {
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+  }

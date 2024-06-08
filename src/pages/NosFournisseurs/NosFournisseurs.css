@@ -1,0 +1,29 @@
+/* .nos-bg {
+  background-color: #F9F6FE;
+} */
+
+.brand-carousel img {
+    width: 83%;
+    height: 100%;
+    transition: transform 0.3s;
+  }
+  .Nos-content{
+  text-align: center;
+  }
+  .Nos-head{
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center content horizontally */
+  }
+  .next-arrow {
+    left: 55%; /* Adjust to position the arrow centrally below the image */
+    transform: translateX(-50%);
+  }
+  .prev-arrow {
+    left: 45%; /* Adjust to position the arrow centrally below the image */
+    transform: translateX(-50%);
+  }
+  .custom-arrow::before {
+    font-size: 40px;
+    color: black;
+  }

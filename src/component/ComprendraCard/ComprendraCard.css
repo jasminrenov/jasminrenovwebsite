@@ -1,0 +1,18 @@
+.comprendraCard{
+    max-width: 350px;
+    height: 280px;
+    padding: 20px;
+}
+.red_letter{
+    color: red;
+    opacity: 0.3;
+}
+
+.circle_portion_icon{
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    width: 45px;
+    background: gray;
+    border-radius: 25px
+}

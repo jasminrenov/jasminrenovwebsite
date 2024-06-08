@@ -1,0 +1,19 @@
+.confier_card{
+    max-width: 350px;
+    height: 280px;
+    background-color: white;
+    padding: 20px;
+}
+
+.circle_portion_icon{
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    width: 45px;
+    background: gray;
+    border-radius: 25px
+}
+.image_icon_{
+    width: 25px;
+    height: 40px;
+}

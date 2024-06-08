@@ -1,0 +1,41 @@
+.local-professionnel {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    width: 100%;
+  }
+  
+  .information-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+  
+  .information-portion {
+    margin: 70px 0;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .service-portion {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .service-portion {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .service-portion {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .information-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .three_card_professional{
+      flex-direction: column;
+    }
+  }

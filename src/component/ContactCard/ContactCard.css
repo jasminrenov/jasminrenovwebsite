@@ -1,0 +1,12 @@
+.contact-card {
+    width: 340px;
+    padding: 25px;
+    text-align: left;
+    -webkit-box-shadow: 0 0 10px #e2e2e2;
+          box-shadow: 0 0 10px #e2e2e2;
+  }
+  
+  .contact-hr {
+    width: 40px;
+    border: 1px solid blue;
+  }

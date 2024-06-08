@@ -1,0 +1,32 @@
+.blogImg-Card {
+    width: 50%;
+  }
+
+  .blog-card {
+    width: 50%;
+  }
+  .blogImg-Card img {
+    max-width: 700px;
+    height: 350px;
+  }
+  
+ 
+  
+  @media only screen and (max-width: 768px) {
+    .blogImg-Card {
+      width: 100%;
+    }
+    .blog-card {
+        width: 100%;
+      }
+  
+    .blogImg-Card img {
+      max-width: 500px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .blogImg-Card img {
+      max-width: 300px;
+    }
+  }

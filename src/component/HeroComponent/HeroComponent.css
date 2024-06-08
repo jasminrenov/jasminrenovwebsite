@@ -1,0 +1,38 @@
+.hero-portion {
+    position: relative;
+    height: 65vh;
+  }
+  
+  #myVideo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .hero-content-portion {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+  
+  .hero-btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #e81a4b;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0 0 0;
+  }
+  
+  .hero-btn:hover {
+    background-color: #ff2558;
+  }
+  
+  .hero-btn a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+  }

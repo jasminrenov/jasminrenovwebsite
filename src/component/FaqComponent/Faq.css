@@ -1,0 +1,26 @@
+.faq-container {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .faq-question-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .faq-question {
+    font-weight: bold;
+  }
+  
+  .faq-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .faq-answer {
+    text-align: left;
+    color: #555;
+  }

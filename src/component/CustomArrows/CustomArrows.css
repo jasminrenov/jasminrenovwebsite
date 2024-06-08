@@ -1,0 +1,45 @@
+.custom-arrow {
+    position: absolute;
+    bottom: -40px; /* Position below the image */
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1;
+    background-color: #e7e4ec;
+  }
+  
+  .next-arrow {
+    left: 50%;
+    transform: translate(-50%, -50%); /* Adjust to center below the image */
+  }
+  
+  .prev-arrow {
+    right: 50%;
+    transform: translate(50%, -50%); /* Adjust to center below the image */
+  }
+  
+  .custom-arrow::before {
+    font-size: 40px;
+    color: black;
+  }
+  /* src/CustomArrows.css */
+  .next-arrow {
+    left: 50%;
+    transform: translate(-50%, -50%); /* Adjust to center below the image */
+  }
+  
+  .prev-arrow {
+    right: 50%;
+    transform: translate(50%, -50%); /* Adjust to center below the image */
+  }
+  
+  .custom-arrow::before {
+    font-size: 20px;
+    color: black;
+  }

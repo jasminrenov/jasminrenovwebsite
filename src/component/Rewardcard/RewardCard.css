@@ -1,0 +1,6 @@
+.review-card {
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 20px 35px;
+    height: fit-content;
+  }

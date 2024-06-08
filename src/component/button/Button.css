@@ -1,0 +1,18 @@
+.common_button{
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background: #e81a4b;
+    padding: 8px 25px;
+}
+.common_button2{
+    border-radius: 5px;
+    border-color: #e81a4b !important;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    background: white;
+    padding: 7px 24px;
+}
