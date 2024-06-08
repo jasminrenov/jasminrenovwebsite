@@ -258,7 +258,7 @@ const MainPage = () => {
         </div>
       </section>
       <section className="service_portion">
-        <div className="service-portion2 container">
+        <div className="service-portion2">
           <ServiceCard
             imgUrl={image6}
             title="Electricité générale"
@@ -380,7 +380,7 @@ const MainPage = () => {
       <section>
         <div className="achievement-portion">
           <Header heading="Nos réalisations en images" />
-          <div className="achievement-img container mb-20">
+          <div className="achievement-img  mb-20">
             <AchivementCard imgUrl={image14} />
             <AchivementCard imgUrl={image15} />
             <AchivementCard imgUrl={image16} />

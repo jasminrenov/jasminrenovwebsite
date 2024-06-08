@@ -137,6 +137,15 @@
     padding: 50px;
   }
 
+  @media only screen and (max-width: 1024px) {
+    .service-portion2 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .achievement-img{
+      grid-template-columns: repeat(3,1fr);
+    }
+  }
+
   @media only screen and (max-width:786px){
     .responsive_flex{
       flex-direction: column;
